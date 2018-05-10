@@ -1,0 +1,46 @@
+.app-header
+  height: 200px
+  width: 100%
+  background-color: #37474f
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  align-items: center
+  .header-logo
+    height: 100px
+    width: 100px
+    position: relative
+    .logo-react,
+    .logo-wp
+      height: 100%
+      width: 100%
+      position: absolute
+      background-size: contain
+      background-repeat: no-repeat
+      background-position: center
+    .logo-react
+      animation: fade-out linear 15s infinite
+    .logo-wp
+      animation: fade-in linear 15s infinite
+
+  .top-message
+    color: #eceff1
+    font-size: 24px
+    font-weight: 300
+
++keyframes(fade-out)
+  0%
+    opacity: 1
+  50%
+    opacity: 0
+  100%
+    opacity: 1
+    transform: rotate(360deg)
+
++keyframes(fade-in)
+  0%
+    opacity: 0
+  50%
+    opacity: 1
+  100%
+    opacity: 0

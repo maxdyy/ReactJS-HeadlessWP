@@ -1,5 +1,5 @@
 .posttypesui, .taxonomiesui {
-  width: calc(100% - 300px);
+  width: 100%;
 }
 
 .posttypesui .cptui-section:first-child, .taxonomiesui .cptui-section:first-child {
@@ -286,6 +286,7 @@ fieldset .cptui-help {
 }
 
 .wdspromos {
+  display: none !important;
   float: right;
   margin-left: 20px;
   margin-top: 10px;
@@ -300,6 +301,7 @@ fieldset .cptui-help {
 }
 
 .wdspromos-about {
+  display: none !important;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;

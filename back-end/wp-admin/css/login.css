@@ -112,6 +112,15 @@ p {
 	float: right;
 }
 
+#login .custom-logo {
+	height: 145px;
+	width: 145px;
+	background-image: url('../images/react.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	animation:spin 4s linear infinite;
+}
+
 #login form p {
 	margin-bottom: 0;
 }
