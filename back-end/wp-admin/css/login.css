@@ -270,3 +270,9 @@ body.interim-login {
 		margin: -3px 0 0 -4px;
 	}
 }
+
+
+/* custom CSS */
+#login #nav, #login #backtoblog {
+	display: none !important;
+}
