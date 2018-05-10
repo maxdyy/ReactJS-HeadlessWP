@@ -1,0 +1,21 @@
+html,
+body
+  margin: 0
+  padding: 0
+  width: 100%
+  height: 100%
+  font-family: sans-serif
+  -webkit-tap-highlight-color: transparent
+  text-rendering: optimizeLegibility
+
+=keyframes($name)
+  @-webkit-keyframes #{$name}
+    @content
+  @-moz-keyframes #{$name}
+    @content
+  @-ms-keyframes #{$name}
+    @content
+  @keyframes #{$name}
+    @content
+
+@import header
